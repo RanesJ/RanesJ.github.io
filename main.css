@@ -1,11 +1,32 @@
 .content{
-    width:980px;
+    width:700px;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;
 }
 .name{
-    font-size:64px;
+    font-size:32px;
+    color:#2F5EC3;
+    font-family: 'Abel'; 
+}
+
+.projects{
+    list-style: none;
+    padding: 0px;
+}
+h3{
+    display: inline;
+    font-size:32px;
     color:#2F5EC3;
     font-family: 'Abel';
+}
+
+.code{
+    float: right;
+    font-size:16px;
+}
+li{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3em;
+    padding-bottom: 2.2em;
 }
