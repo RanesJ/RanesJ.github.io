@@ -26,16 +26,37 @@ h1{
     list-style: none;
     padding: 0px;
 }
+.projects a{
+    text-decoration: none;
+}
+
 h3{
     display: inline;
     font-size:32px;
-    color:#2F5EC3;
     font-family: 'Abel';
 }
-
-.code{
+h3 a:link{
+    color:#2F5EC3;
+}
+h3 a:visited{
+    color:#2F5EC3;
+}
+h3 a:hover {
+   color: lightcoral;
+}
+#code{
     float: right;
     font-size:16px;
+    
+}
+#codeLink, a:link{
+    color:darkgray;
+}
+#codeLink, a:visited{
+    color:darkgray;
+}
+#codeLink, a:hover{
+    color:lightcoral;
 }
 li{
     border-bottom: 1px solid #ccc;
