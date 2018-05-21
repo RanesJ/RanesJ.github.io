@@ -50,10 +50,10 @@ h3 a:hover {
     
 }
 #codeLink, a:link{
-    color:darkgray;
+    color:mediumpurple;
 }
 #codeLink, a:visited{
-    color:darkgray;
+    color:mediumpurple;
 }
 #codeLink, a:hover{
     color:lightcoral;
