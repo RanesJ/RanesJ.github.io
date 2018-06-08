@@ -10,26 +10,31 @@ body{
 .name{
     font-size:32px;
     color:#2F5EC3;
-    font-family: 'Abel'; 
+    font-family: 'Abel';
+    text-align: center;
 }
 h1{
     margin-bottom: 10px;
 }
 #nameDescription{
-    margin-bottom: 58px;
+    margin-bottom: -11px;
     color:#999;
     font-family: 'Abel';
     font-size:44px;
-
+    text-align: center;
 }
 .projects{
     list-style: none;
     padding: 0px;
 }
+
 .projects a{
     text-decoration: none;
 }
-
+img{
+    width:700px;
+    padding-bottom: 15px;
+}
 h3{
     display: inline;
     font-size:32px;
@@ -45,7 +50,6 @@ h3 a:hover {
    color: lightcoral;
 }
 #code{
-    float: right;
     font-size:16px;
     
 }
@@ -59,9 +63,10 @@ h3 a:hover {
     color:lightcoral;
 }
 li{
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 3em;
+    border-bottom: 3px dotted #ccc;
+    margin-bottom: 2.2em;
     padding-bottom: 2.2em;
+    text-align: center;
 }
 .projectDescription{
     font-family: georgia,times,serif;
